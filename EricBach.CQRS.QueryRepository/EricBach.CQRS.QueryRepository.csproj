@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>EricBach.CQRS.QueryRepository is a microservices CQRS framework</Description>
+    <PackageProjectUrl>https://github.com/eric-bach/EricBach.CQRS.QueryRepository</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eric-bach/EricBach.CQRS.QueryRepository</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <!-- <VersionPrefix>1.0.7</VersionPrefix>
+    <VersionSuffix>beta</VersionSuffix> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
