@@ -21,14 +21,4 @@ namespace EricBach.CQRS.QueryRepository.Response
         [JsonProperty("_primary_term")]
         public int PrimaryTerm { get; set; }
     }
-
-    public class Shard
-    {
-        [JsonProperty("total")]
-        public int Total { get; set; }
-        [JsonProperty("successful")]
-        public int Successful { get; set; }
-        [JsonProperty("failed")]
-        public int Failed { get; set; }
-    }
 }
